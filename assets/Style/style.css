@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ----------------------------------------------------------------------- */
+/* Login Session */
+
+
+
+
+/* ----------------------------------------------------------------------- */
+/* Home Product */
+
+section {
+    z-index: 2;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    min-height: min-content;
+    min-width: min-content;
+    background: rgba(255, 252, 252, 0.22);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    padding: 30px 30px;
+    box-sizing: border-box;
+}
+
+.card {
+    border: none;
+    overflow: none;
+    background: rgba(255, 252, 252, 0.58);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.show_product {
+    height: 200px;
+    object-fit: cover;
+}
+
+h5 {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    max-width: 18rem;
+    overflow: hidden;
+}
+
+.title-product {
+    background-color: #BE9ABE;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

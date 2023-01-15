@@ -1,0 +1,62 @@
+@media (max-width: 900px) {
+    .show_product {
+        height: 130px;
+        object-fit: cover;
+    }
+
+    .harga {
+        font-size: 13px;
+    }
+    .card {
+
+        max-width: 45%;
+        min-height: 265px;
+    }
+    .card-title {
+        top: 125px;
+        position: absolute;
+        background-color: azure;
+        display: block;
+        justify-content: center;
+        font-size: 15px;
+        padding: 3px 5px;
+        border-radius: 5px;
+    }
+    .title-nama{
+        display: flex;
+        justify-content: center;
+    }
+    .card-body {
+        padding: 30px 10px;
+        height: 50px;
+        justify-content: flex-start;
+    }
+    p {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        font-size: 11px;
+        text-align: left;
+    }
+    #index {
+        padding-top: 30px;
+        background-position: auto;
+    }
+    section {
+        margin-top: 30px;
+        border-radius: 0px;
+        padding: 30px 10px;
+        justify-content: center;
+        min-height: min-content;
+    }
+    .logo {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        background-color: white;
+        border-radius: 50%;
+        top: -75px;
+    }
+}
+
+
