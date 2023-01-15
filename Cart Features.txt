@@ -1,0 +1,2 @@
+pertama saya akan membuat rancangan cart 
+- menggunakan method $_GET untuk mengambil id
